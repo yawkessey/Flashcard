@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF39856227E5938A007C86AE /* CreationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF39856127E5938A007C86AE /* CreationViewController.swift */; };
 		EFE61BFC27CFF92500B4A975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE61BFB27CFF92500B4A975 /* AppDelegate.swift */; };
 		EFE61BFE27CFF92500B4A975 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE61BFD27CFF92500B4A975 /* SceneDelegate.swift */; };
 		EFE61C0027CFF92500B4A975 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE61BFF27CFF92500B4A975 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF39856127E5938A007C86AE /* CreationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreationViewController.swift; sourceTree = "<group>"; };
 		EFE61BF827CFF92500B4A975 /* Flashcard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flashcard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFE61BFB27CFF92500B4A975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFE61BFD27CFF92500B4A975 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				EFE61C0427CFF92800B4A975 /* Assets.xcassets */,
 				EFE61C0627CFF92800B4A975 /* LaunchScreen.storyboard */,
 				EFE61C0927CFF92800B4A975 /* Info.plist */,
+				EF39856127E5938A007C86AE /* CreationViewController.swift */,
 			);
 			path = Flashcard;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				EFE61C0027CFF92500B4A975 /* ViewController.swift in Sources */,
 				EFE61BFC27CFF92500B4A975 /* AppDelegate.swift in Sources */,
 				EFE61BFE27CFF92500B4A975 /* SceneDelegate.swift in Sources */,
+				EF39856227E5938A007C86AE /* CreationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
