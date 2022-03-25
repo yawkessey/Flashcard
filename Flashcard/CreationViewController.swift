@@ -11,8 +11,10 @@ class CreationViewController: UIViewController {
     var flashcardsController: ViewController!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        questionTextField.text = initialQuestion
+        answerTextField.text = initialAnswer
+        
     }
     
     
@@ -22,13 +24,22 @@ class CreationViewController: UIViewController {
     @IBAction func didTapOnCancel(_ sender: Any) {
         dismiss (animated: true)
     }
+    var isExisting = false;
+    var initialQuestion: String?
+    var initialAnswer: String?
     
+  
     @IBAction func didTapOnDone(_ sender: Any) {
         let questionText = questionTextField.text
         
         let answerText = answerTextField.text
         
-        flashcardsController.updateFlashcard(question: questionText!, answer: answerText!)
+        var isExisting = false
+        if initialQuestion != nil {
+            isExisting = true
+        }
+        
+        flashcardsController.updateFlashcard(question: questionText!, answer: answerText!, isExisting: isExisting)
         
         dismiss (animated: true)
     }
