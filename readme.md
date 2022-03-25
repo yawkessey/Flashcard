@@ -3,7 +3,7 @@
 ## Lab 3
 
 ### App Description
-Fully functional flashcard app. The user is now able to browse through multiple flashcards and see previously created flashcards
+Fully functional flashcard app. The user is now able to browse through multiple flashcards and see previously created flashcards. User is also able to delete a flashcard or edit an existing one. 
 
 ### App Walk-though
 <img src="http://g.recordit.co/4qfjFWOUID.gif" width=200><br>
