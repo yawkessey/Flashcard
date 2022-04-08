@@ -1,7 +1,7 @@
 ## Lab 4
 
 ### App Description
-`TODO://` Added images and animations to bring life to my flashcard app. 
+Added images and animations to bring life to my flashcard app. 
 
 ### App Walk-though
 
